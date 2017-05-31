@@ -1,0 +1,21 @@
+.main{height: 100%;width: 100%}
+p{float: left;font-size: 22px;}
+.img_case{float: left; margin-top: 20px}
+ body #content.full-page .inside-block {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 50px;
+    color: white;
+    overflow: auto;
+    padding-top: 180px;
+ }
+  body #content.full-page .inside-block form section.log-in {
+        margin-top: 50px;
+        border-top: 5px dashed rgba(0, 0, 0, 0.1); }

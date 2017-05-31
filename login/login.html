@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <title>登录</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"/>
+
+    <!-- Bootstrap -->
+    <link href="css/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/vendor/bootstrap-checkbox.css">
+
+    <link href="css/minimal.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+    <script language="javascript" src="js/loreg.js"></script>
+	
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+
+  </head>
+  <body class="bg-1">
+ 
+
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+      <!-- Make page fluid -->
+      <div class="row">
+        <!-- Page content -->
+        <div id="content" class="col-md-12 full-page login">
+
+
+          <div class="inside-block">
+            <h1><strong>智慧家居</strong> 照护系统1.0</h1>
+            <h3>Smart Home</h3>
+
+            <form id="form-signin" class="form-signin" name="frm" method="post">
+              <section>
+                <div class="input-group">
+                  <input type="text" class="form-control" name="username" placeholder="Username">          
+                  <div class="input-group-addon" id="usern"></div>
+                </div>
+                <div class="input-group">
+                  <input type="password" class="form-control" name="password" placeholder="Password">
+                  <div class="input-group-addon" id="passw"></div>
+                </div>
+              </section>
+              <section class="controls">
+                <a href="#">忘记密码</a>
+              </section>
+              <section class="log-in">
+                  <button class="btn btn-greensea" type="button" onClick="yz(frm),logincheck()">登录</button>
+              
+                  <button class="btn btn-slategray"><a href="register.html">注册</a></button>
+                  
+              </section>
+            </form>
+          </div>
+
+
+        </div>
+        <!-- /Page content -->  
+      </div>
+    </div>
+    <!-- Wrap all page content end -->
+  </body>
+</html>
+      
